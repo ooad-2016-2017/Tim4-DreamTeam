@@ -1,6 +1,6 @@
 DreamTeam
-Èlanovi Tima:
+ÄŒlanovi Tima:
 
-1. Mersiha Æeraniæ
-2. Maja Dugandiæ
-3. Haris Alikadiæ
+1. Mersiha Ä†eraniÄ‡
+2. Maja DugandÅ¾iÄ‡
+3. Haris AlikadiÄ‡
