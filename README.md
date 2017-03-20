@@ -38,4 +38,4 @@ Aplikacija je namijenjena policijskim službenicima u svrhu pretraživanja fizi�
 2. Policajac – službeno lice policijske uprave;održava mir i sigurnost te provodi zakon u ime države na nekom određenom području 
 3. Administrator – održava rad sistema i baze podataka u policijskoj upravi
 4. Fizičko lice(osumnjičeni) – lice prema kojem je,prije pokretanja krivičnog postupka, nadležni organ poduzeo neke radnje zbog postojanja osnovane sumnje da je počinio krivično djelo
-5. Sud – pravno lice koje surađuje sa policijskom upravom; 
+5. Sud – pravno lice koje surađuje sa policijskom upravom
