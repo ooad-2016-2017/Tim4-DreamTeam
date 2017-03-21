@@ -17,7 +17,7 @@ Aplikacija je namijenjena policijskim službenicima u svrhu pretraživanja fizi�
 - Pregled kriminalnog dosjea svakog pojedinca, ukoliko ga ima.
 - Ukoliko pojedinac nema dosjea, izdavanje potvrde o nekažnjavanju.
 - Privremeno ograničavanje slobode kretanja (putem elektronske narukvice se vrši praćenje kretanja osumnjičenog).
-- Obrada i ažuriranje informacija o slučaju, te prosljeđivanje podataka sudu u svrhu vođenja slučaja.
+- Obrada i ažuriranje informacija o slučaju.
 
 ### Procesi:
 - Registracija i vođenje evidencije o policijskim službenicima:  Unutar sistema policijske uprave se vrši registracija policijskih službenika. Pri registraciji se unose osnovni podaci i zadaće policijskih službenika. Pri dolasku/odlasku službenih lica na posao, službeno lice se prijavljuje/odjavljuje na sistem policijske uprave. Usljed napredovanja/nazadovanja u radu policijskih službenika, vrši se ažuriranje podataka istih. 
