@@ -24,7 +24,7 @@ Aplikacija je namijenjena policijskim službenicima u svrhu pretraživanja fizi�
 
 - Postupak žalbe:  Pojedinci uneseni u bazu podataka imaju pravo javne žalbe. Osumnjičeno lice ima mogućnost da pokrene postupak žalbe koji se šalje sudu. Sud precesuira žalidbeni zahtjev. U toku procesuiranja zahtjeva, sud ustanovljava da li žalba ima osnove za uvažavanje. Ako se ustanovi da žalba ima osnove za uvažavanje, sud šalje obavijest nadležnim organima policijske uprave.
 
-- Pravilnik o pogodnostima zatvorenika: Ukoliko je utvrđeno da zatvorenik ima uzorno ponašanje, vrši se ažuriranje kriminalnog dosjea. Na osnovu toga se omogućava smanjenje kazne ili davanje pogodnosti zatvoreniku.
+- Pravilnik o pogodnostima zatvorenika: Ukoliko je utvrđeno da zatvorenik ima uzorno ponašanje, vrši se ažuriranje kriminalnog dosjea. Na osnovu toga se omogućava davanje pogodnosti zatvoreniku.
 
 
 ### Funkcionalnosti:
