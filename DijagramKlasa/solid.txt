@@ -1,0 +1,30 @@
+1.Princip pojedinaène odgovornosti
+Po principu pojedinaène odgovornosti, klase treba da znaju samo o jednoj stvari, 
+tj. da imaju pojedinaène odgovornosti. Sve klase navedene u dijagramu zadovoljavaju 
+princip pojedinaène odgovornosti jer svaka naša klasa ima samo jedan razlog za 
+promjenu.
+
+2.Otvoreno zatvoren princip
+Ovaj princip se zasniva na tome da možemo mijenjati okruženje oko modela, ali 
+ne i sam model. Zadovoljavanje ovog principa vidimo na primjeru klase 
+"Policijska uprava", gdje možemo vršiti dodavanje, ali ne i modifikacije.
+Analogno vrijedi i za ostale klase.
+
+3.Liskov princip zamjene
+Po ovom principu vrijedi da podtipovi moraju biti zamjenjivi njihovim osnovnim 
+tipovima. Posmatrajuæi naš dijagram klasa zakljuèujemo da svaka klasa izvedena
+iz klase 'Lice' koristi metode definisane u klasi 'Lice' i da su svi pozivi tih 
+funkcija legalni. 
+
+4.Princip inverzije ovisnosti
+Prateæi svaku strelicu na našem UML dijagramu, vidimo da sve naše klase ovise od klase
+'Lice' koja sigurno neæe imati velikih ni èestih promjena u buduænosti. U stvarnosti se
+lice i ono što èini lice ne mijenja, a uz to je i sama klasa apstraktna, 
+zadovoljavamo 'Princip inverzije ovisnosti'.
+
+5.Princip izoliranja interfejsa
+Zakljuèimo na kraju da ni ovaj princip nije narušen, s obzirom da sve klase (izuzev
+apstraktne klase 'Lice') sadrže metode koje se uredno koriste, i koje æe uvijek biti
+upotrebljive. Iz navedenih klasa je dovoljno implementirati interfejs za metode poput
+'preuzmiZadatak(mjesto : string, zadatak : Zadatak) : void', 
+'verifikacijaImena(ime : string) : boolean', itd.
