@@ -7,7 +7,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="MintCream">
+
+        <TextBlock x:Name="labelIme" HorizontalAlignment="Left" Text="Ime: " VerticalAlignment="Top" FontSize="17" Margin="10,35,0,0" Width="130"/>
+        <TextBox x:Name="textIme" Text="Unesite"  HorizontalAlignment="Left" Margin="150,30,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="180"/>
+        <TextBlock x:Name="labelPrezime" HorizontalAlignment="Left" Text="Prezime: " VerticalAlignment="Top" FontSize="17" Margin="10,75,0,0" Width="130"/>
+        <TextBox x:Name="textPrezime" Text="Unesite"  HorizontalAlignment="Left" Margin="150,70,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="180"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" Text="Datum rođenja :" VerticalAlignment="Top" FontSize="17" Width="130"/>
+        <DatePicker HorizontalAlignment="Left" Date="{Binding Path=viewModel.datumRodjenja, Mode=TwoWay, Converter={StaticResource theDateConverter}}"  Margin="150,110,-81,0" VerticalAlignment="Top" Width="180"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,155,0,0" TextWrapping="Wrap" Text="Spol :" VerticalAlignment="Top" FontSize="17" Width="130"/>
+        <RadioButton x:Name="radioMusko" Command="{x:Bind viewModel.muskoJe, Mode=TwoWay}" Content="Musko" HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioZensko" Command="{x:Bind viewModel.zenskoJe, Mode=TwoWay}" Content="Zensko" HorizontalAlignment="Left" Margin="250,150,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,195,0,0" TextWrapping="Wrap" Text="Password :" VerticalAlignment="Top" FontSize="17" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Margin="150,195,0,0" TextWrapping="Wrap" Text="Unesite ovdje" VerticalAlignment="Top" Width="180"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,235,0,0" TextWrapping="Wrap" Text="Potvrdite password :" VerticalAlignment="Top" FontSize="17" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Margin="150,245,0,0" TextWrapping="Wrap" Text="Unesite ovdje" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="buttonRegistrujSe" Content="Registruj se" Command="Registruj se" HorizontalAlignment="Right" FontSize="17"  Width="120" Margin="0,500,200,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonOdustani" Content="Odustani" Command="Odustani" HorizontalAlignment="Right" FontSize="17"  Width="120" Margin="0,500,75,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
